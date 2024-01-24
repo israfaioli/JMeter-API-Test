@@ -1,0 +1,31 @@
+name: Run JMeter Tests
+
+on:
+  schedule:
+    - cron: '0 7 * * *' # Agendamento diário às 7 da manhã UTC
+
+jobs:
+  run_tests:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        distribution: 'adopt'
+        java-version: '11'
+
+    - name: Run JMeter Tests
+      run: |
+        export JMETER_HOME=$GITHUB_WORKSPACE/apache-jmeter-5.6.3
+        export PATH=$JMETER_HOME/bin:$PATH
+        jmeter -n -t $GITHUB_WORKSPACE/JMeter-API-Test/apache-jmeter-5.6.3/bin/plans/api.jmx -l results.jtl
+
+    - name: Upload Test Results
+      uses: actions/upload-artifact@v2
+      with:
+        name: jmeter-results
+        path: results.jtl
