@@ -7,20 +7,7 @@ Olá Analistas, desenvolvedores e recrutadores. Este readme irá apresentar a es
   - Acesse o terminal e execute o comando 'java -version'
   ```
 
-  * Certifique-se de ter JMeter instalado
-  ```
-  - Acesse a url https://jmeter.apache.org/download_jmeter.cgi
-  - Baixe o arquivo tipo 'Binaries'
-  ```
-
 * Clone este repositório.
-
-
-* Execute `npm install` para instalar as dependências.
-
-  ```
-  npm install
-  ```
 
 ### Estrutura do projeto ###
 
@@ -30,14 +17,14 @@ Olá Analistas, desenvolvedores e recrutadores. Este readme irá apresentar a es
 * configuration elements - Representação geralmente em variáveis que podemos utilizar dentro das samples(requisições)
 * .jmx - extensão do arquivo do projeto Jmeter.
 
-### Rodando o projeto ###
 
-* Acessa a pasta do projeto
-* Rode todas as suites de testes:
+* Comando para executar os testes sem GUI mode:
 
-```
-npm run test
-```
+  ```
+  jmeter -n -t $GITHUB_WORKSPACE/JMeter-API-Test/apache-jmeter-5.6.3/bin/plans/api.jmx -l results.jtl
+  ```
+
+
 
 ### Repositório github ###
 
