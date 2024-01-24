@@ -33,4 +33,7 @@ jobs:
         jmeter -n -t $GITHUB_WORKSPACE/JMeter-API-Test/apache-jmeter-5.6.3/bin/plans/api.jmx -l results.jtl
 
     - name: Upload Test Results
-      uses: actions/upload-art
+      uses: actions/upload-artifact@v2
+      with:
+        name: jmeter-results
+        path: results.jtl
