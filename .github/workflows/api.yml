@@ -21,12 +21,9 @@ jobs:
         distribution: 'adopt'
         java-version: '11'
 
-    - name: Log GitHub Workspace
-      run: |
-        echo "GitHub Workspace: $GITHUB_WORKSPACE"
-
     - name: Grant execute permission to JMeter
       run: |
+        echo "GitHub Workspace: $GITHUB_WORKSPACE"
         chmod +x $GITHUB_WORKSPACE/apache-jmeter-5.6.3/bin/jmeter
 
     - name: Run JMeter Tests
