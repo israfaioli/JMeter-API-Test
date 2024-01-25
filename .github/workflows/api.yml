@@ -30,15 +30,10 @@ jobs:
       run: |
         export JMETER_HOME=$GITHUB_WORKSPACE/apache-jmeter-5.6.3
         export PATH=$JMETER_HOME/bin:$PATH
-
-        currentDateTime=$(date "+%Y%m%d_%H%M%S")
-        resultsFile="$GITHUB_WORKSPACE/apache-jmeter-5.6.3/bin/plans/results_${currentDateTime}.jtl"
-        reportsDirectory="$GITHUB_WORKSPACE/apache-jmeter-5.6.3/bin/plans/htmlReports_${currentDateTime}"
-
-        jmeter -n -t $JMETER_HOME/bin/plans/api.jmx -l $resultsFile -e -o $reportsDirectory
+        jmeter -n -t $GITHUB_WORKSPACE/apache-jmeter-5.6.3/bin/plans/api.jmx -l $GITHUB_WORKSPACE/apache-jmeter-5.6.3/bin/plans/results.jtl
 
     - name: Upload Test Results
       uses: actions/upload-artifact@v2
       with:
         name: jmeter-results
-        path: $reportsDirectory/index.html
+        path: results.jtl
