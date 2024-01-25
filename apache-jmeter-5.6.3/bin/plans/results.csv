@@ -1,0 +1,91 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1706193886744,1541,GET - test-api.k6.io,200,OK,Throughput Controller 1-3,text,false,"The operation lasted too long: It took 1,541 milliseconds, but should not have lasted longer than 1,500 milliseconds.",11757,234,21,21,https://test-api.k6.io/,516,0,369
+1706193887310,944,GET - /public/crocodiles/,200,OK,Throughput Controller 1-22,text,true,,1171,270,21,21,https://test-api.k6.io/public/crocodiles/,293,0,148
+1706193887343,988,GET - test-api.k6.io,200,OK,Throughput Controller 1-23,text,true,,11757,234,21,21,https://test-api.k6.io/,304,0,152
+1706193887343,304,GET - test-api.k6.io-0,308,Permanent Redirect,Throughput Controller 1-23,text,true,,341,117,21,21,http://test-api.k6.io/,304,0,152
+1706193886744,516,GET - test-api.k6.io-0,308,Permanent Redirect,Throughput Controller 1-3,text,true,,341,117,21,21,http://test-api.k6.io/,516,0,369
+1706193887648,683,GET - test-api.k6.io-1,200,OK,Throughput Controller 1-23,text,true,,11416,117,21,21,https://test-api.k6.io/,683,0,474
+1706193887310,293,GET - /public/crocodiles/-0,308,Permanent Redirect,Throughput Controller 1-22,text,true,,359,135,21,21,http://test-api.k6.io/public/crocodiles/,293,0,148
+1706193887261,1024,GET - test-api.k6.io-1,200,OK,Throughput Controller 1-3,text,true,,11416,117,21,21,https://test-api.k6.io/,1024,0,877
+1706193887045,1217,GET - /public/crocodiles/1/,200,OK,Throughput Controller 1-14,text,true,,633,274,21,21,https://test-api.k6.io/public/crocodiles/1/,293,0,147
+1706193887604,650,GET - /public/crocodiles/-1,200,OK,Throughput Controller 1-22,text,true,,812,135,21,21,https://test-api.k6.io/public/crocodiles/,650,0,488
+1706193887045,293,GET - /public/crocodiles/1/-0,308,Permanent Redirect,Throughput Controller 1-14,text,true,,361,137,21,21,http://test-api.k6.io/public/crocodiles/1/,293,0,147
+1706193887508,763,GET - test-api.k6.io,200,OK,Throughput Controller 1-28,text,true,,11757,234,21,21,https://test-api.k6.io/,289,0,142
+1706193887339,923,GET - /public/crocodiles/1/-1,200,OK,Throughput Controller 1-14,text,true,,272,137,21,21,https://test-api.k6.io/public/crocodiles/1/,923,0,759
+1706193887508,289,GET - test-api.k6.io-0,308,Permanent Redirect,Throughput Controller 1-28,text,true,,341,117,21,21,http://test-api.k6.io/,289,0,142
+1706193887798,473,GET - test-api.k6.io-1,200,OK,Throughput Controller 1-28,text,true,,11416,117,21,21,https://test-api.k6.io/,473,0,325
+1706193886881,1385,GET - /public/crocodiles/,200,OK,Throughput Controller 1-9,text,true,,1171,270,21,21,https://test-api.k6.io/public/crocodiles/,378,0,231
+1706193887540,778,GET - /public/crocodiles/,200,OK,Throughput Controller 1-29,text,true,,1171,270,21,21,https://test-api.k6.io/public/crocodiles/,295,0,146
+1706193886881,378,GET - /public/crocodiles/-0,308,Permanent Redirect,Throughput Controller 1-9,text,true,,359,135,21,21,http://test-api.k6.io/public/crocodiles/,378,0,231
+1706193887540,295,GET - /public/crocodiles/-0,308,Permanent Redirect,Throughput Controller 1-29,text,true,,359,135,21,21,http://test-api.k6.io/public/crocodiles/,295,0,146
+1706193887261,1005,GET - /public/crocodiles/-1,200,OK,Throughput Controller 1-9,text,true,,812,135,21,21,https://test-api.k6.io/public/crocodiles/,1005,0,846
+1706193887836,482,GET - /public/crocodiles/-1,200,OK,Throughput Controller 1-29,text,true,,812,135,21,21,https://test-api.k6.io/public/crocodiles/,482,0,309
+1706193887441,837,GET - /public/crocodiles/,200,OK,Throughput Controller 1-26,text,true,,1171,270,21,21,https://test-api.k6.io/public/crocodiles/,284,0,143
+1706193887441,284,GET - /public/crocodiles/-0,308,Permanent Redirect,Throughput Controller 1-26,text,true,,359,135,21,21,http://test-api.k6.io/public/crocodiles/,284,0,143
+1706193887375,933,GET - /public/crocodiles/1/,200,OK,Throughput Controller 1-24,text,true,,633,274,21,21,https://test-api.k6.io/public/crocodiles/1/,293,0,148
+1706193887178,1073,GET - test-api.k6.io,200,OK,Throughput Controller 1-18,text,true,,11757,234,21,21,https://test-api.k6.io/,287,0,146
+1706193887375,293,GET - /public/crocodiles/1/-0,308,Permanent Redirect,Throughput Controller 1-24,text,true,,361,137,21,21,http://test-api.k6.io/public/crocodiles/1/,293,0,148
+1706193887178,287,GET - test-api.k6.io-0,308,Permanent Redirect,Throughput Controller 1-18,text,true,,341,117,21,21,http://test-api.k6.io/,287,0,146
+1706193887668,640,GET - /public/crocodiles/1/-1,200,OK,Throughput Controller 1-24,text,true,,272,137,21,21,https://test-api.k6.io/public/crocodiles/1/,640,0,468
+1706193887012,1267,GET - test-api.k6.io,200,OK,Throughput Controller 1-13,text,true,,11757,234,21,21,https://test-api.k6.io/,287,0,143
+1706193887466,785,GET - test-api.k6.io-1,200,OK,Throughput Controller 1-18,text,true,,11416,117,21,21,https://test-api.k6.io/,785,0,637
+1706193887726,552,GET - /public/crocodiles/-1,200,OK,Throughput Controller 1-26,text,true,,812,135,21,21,https://test-api.k6.io/public/crocodiles/,552,0,395
+1706193886980,1289,GET - /public/crocodiles/,200,OK,Throughput Controller 1-12,text,true,,1171,270,21,21,https://test-api.k6.io/public/crocodiles/,305,0,148
+1706193886783,1501,GET - /public/crocodiles/,200,OK,Throughput Controller 1-6,text,false,"The operation lasted too long: It took 1,501 milliseconds, but should not have lasted longer than 1,500 milliseconds.",1171,270,21,21,https://test-api.k6.io/public/crocodiles/,476,0,330
+1706193887210,1040,GET - /public/crocodiles/,200,OK,Throughput Controller 1-19,text,true,,1171,270,21,21,https://test-api.k6.io/public/crocodiles/,296,0,148
+1706193886980,305,GET - /public/crocodiles/-0,308,Permanent Redirect,Throughput Controller 1-12,text,true,,359,135,21,21,http://test-api.k6.io/public/crocodiles/,305,0,148
+1706193886783,476,GET - /public/crocodiles/-0,308,Permanent Redirect,Throughput Controller 1-6,text,true,,359,135,21,21,http://test-api.k6.io/public/crocodiles/,476,0,330
+1706193887285,984,GET - /public/crocodiles/-1,200,OK,Throughput Controller 1-12,text,true,,812,135,21,21,https://test-api.k6.io/public/crocodiles/,984,0,829
+1706193887210,296,GET - /public/crocodiles/-0,308,Permanent Redirect,Throughput Controller 1-19,text,true,,359,135,21,21,http://test-api.k6.io/public/crocodiles/,296,0,148
+1706193886744,1510,GET - /public/crocodiles/,200,OK,Throughput Controller 1-2,text,false,"The operation lasted too long: It took 1,510 milliseconds, but should not have lasted longer than 1,500 milliseconds.",1171,270,21,21,https://test-api.k6.io/public/crocodiles/,516,0,369
+1706193887261,1023,GET - /public/crocodiles/-1,200,OK,Throughput Controller 1-6,text,true,,812,135,21,21,https://test-api.k6.io/public/crocodiles/,1023,0,866
+1706193887507,743,GET - /public/crocodiles/-1,200,OK,Throughput Controller 1-19,text,true,,812,135,21,21,https://test-api.k6.io/public/crocodiles/,743,0,587
+1706193887012,287,GET - test-api.k6.io-0,308,Permanent Redirect,Throughput Controller 1-13,text,true,,341,117,21,21,http://test-api.k6.io/,287,0,143
+1706193886744,516,GET - /public/crocodiles/-0,308,Permanent Redirect,Throughput Controller 1-2,text,true,,359,135,21,21,http://test-api.k6.io/public/crocodiles/,516,0,369
+1706193886849,1396,GET - test-api.k6.io,200,OK,Throughput Controller 1-8,text,true,,11757,234,21,21,https://test-api.k6.io/,410,0,263
+1706193887261,993,GET - /public/crocodiles/-1,200,OK,Throughput Controller 1-2,text,true,,812,135,21,21,https://test-api.k6.io/public/crocodiles/,993,0,834
+1706193887578,775,GET - /public/crocodiles/1/,200,OK,Throughput Controller 1-30,text,true,,633,274,21,21,https://test-api.k6.io/public/crocodiles/1/,298,0,143
+1706193887300,979,GET - test-api.k6.io-1,200,OK,Throughput Controller 1-13,text,true,,11416,117,21,21,https://test-api.k6.io/,979,0,833
+1706193886849,410,GET - test-api.k6.io-0,308,Permanent Redirect,Throughput Controller 1-8,text,true,,341,117,21,21,http://test-api.k6.io/,410,0,263
+1706193887243,1019,GET - /public/crocodiles/1/,200,OK,Throughput Controller 1-20,text,true,,633,274,21,21,https://test-api.k6.io/public/crocodiles/1/,288,0,144
+1706193887578,298,GET - /public/crocodiles/1/-0,308,Permanent Redirect,Throughput Controller 1-30,text,true,,361,137,21,21,http://test-api.k6.io/public/crocodiles/1/,298,0,143
+1706193887114,1130,GET - /public/crocodiles/,200,OK,Throughput Controller 1-16,text,true,,1171,270,21,21,https://test-api.k6.io/public/crocodiles/,293,0,148
+1706193887243,288,GET - /public/crocodiles/1/-0,308,Permanent Redirect,Throughput Controller 1-20,text,true,,361,137,21,21,http://test-api.k6.io/public/crocodiles/1/,288,0,144
+1706193887877,476,GET - /public/crocodiles/1/-1,200,OK,Throughput Controller 1-30,text,true,,272,137,21,21,https://test-api.k6.io/public/crocodiles/1/,476,0,316
+1706193887261,984,GET - test-api.k6.io-1,200,OK,Throughput Controller 1-8,text,true,,11416,117,21,21,https://test-api.k6.io/,984,0,834
+1706193887532,730,GET - /public/crocodiles/1/-1,200,OK,Throughput Controller 1-20,text,true,,272,137,21,21,https://test-api.k6.io/public/crocodiles/1/,730,0,570
+1706193887114,293,GET - /public/crocodiles/-0,308,Permanent Redirect,Throughput Controller 1-16,text,true,,359,135,21,21,http://test-api.k6.io/public/crocodiles/,293,0,148
+1706193887408,836,GET - /public/crocodiles/-1,200,OK,Throughput Controller 1-16,text,true,,812,135,21,21,https://test-api.k6.io/public/crocodiles/,836,0,680
+1706193886914,1468,GET - /public/crocodiles/1/,200,OK,Throughput Controller 1-10,text,true,,633,274,11,11,https://test-api.k6.io/public/crocodiles/1/,345,0,198
+1706193886914,345,GET - /public/crocodiles/1/-0,308,Permanent Redirect,Throughput Controller 1-10,text,true,,361,137,11,11,http://test-api.k6.io/public/crocodiles/1/,345,0,198
+1706193887261,1121,GET - /public/crocodiles/1/-1,200,OK,Throughput Controller 1-10,text,true,,272,137,11,11,https://test-api.k6.io/public/crocodiles/1/,1121,0,857
+1706193886744,1727,GET - /public/crocodiles/1/,200,OK,Throughput Controller 1-4,text,false,"The operation lasted too long: It took 1,727 milliseconds, but should not have lasted longer than 1,500 milliseconds.",633,274,10,10,https://test-api.k6.io/public/crocodiles/1/,519,0,374
+1706193886744,519,GET - /public/crocodiles/1/-0,308,Permanent Redirect,Throughput Controller 1-4,text,true,,361,137,10,10,http://test-api.k6.io/public/crocodiles/1/,519,0,374
+1706193887263,1208,GET - /public/crocodiles/1/-1,200,OK,Throughput Controller 1-4,text,true,,272,137,10,10,https://test-api.k6.io/public/crocodiles/1/,1208,0,874
+1706193893380,327,GET - /public/crocodiles/1/,200,OK,Throughput Controller 1-16,text,true,,633,274,9,9,https://test-api.k6.io/public/crocodiles/1/,160,0,0
+1706193893380,327,GET - /public/crocodiles/1/,200,OK,Throughput Controller 1-28,text,true,,633,274,9,9,https://test-api.k6.io/public/crocodiles/1/,157,0,0
+1706193893380,160,GET - /public/crocodiles/1/-0,308,Permanent Redirect,Throughput Controller 1-16,text,true,,361,137,9,9,http://test-api.k6.io/public/crocodiles/1/,160,0,0
+1706193893380,327,GET - /public/crocodiles/1/,200,OK,Throughput Controller 1-22,text,true,,633,274,9,9,https://test-api.k6.io/public/crocodiles/1/,160,0,0
+1706193893380,157,GET - /public/crocodiles/1/-0,308,Permanent Redirect,Throughput Controller 1-28,text,true,,361,137,9,9,http://test-api.k6.io/public/crocodiles/1/,157,0,0
+1706193893541,166,GET - /public/crocodiles/1/-1,200,OK,Throughput Controller 1-16,text,true,,272,137,9,9,https://test-api.k6.io/public/crocodiles/1/,166,0,0
+1706193893380,160,GET - /public/crocodiles/1/-0,308,Permanent Redirect,Throughput Controller 1-22,text,true,,361,137,9,9,http://test-api.k6.io/public/crocodiles/1/,160,0,0
+1706193893537,170,GET - /public/crocodiles/1/-1,200,OK,Throughput Controller 1-28,text,true,,272,137,9,9,https://test-api.k6.io/public/crocodiles/1/,170,0,0
+1706193893541,166,GET - /public/crocodiles/1/-1,200,OK,Throughput Controller 1-22,text,true,,272,137,9,9,https://test-api.k6.io/public/crocodiles/1/,166,0,0
+1706193893380,330,GET - /public/crocodiles/1/,200,OK,Throughput Controller 1-8,text,true,,633,274,6,6,https://test-api.k6.io/public/crocodiles/1/,157,0,0
+1706193893380,157,GET - /public/crocodiles/1/-0,308,Permanent Redirect,Throughput Controller 1-8,text,true,,361,137,6,6,http://test-api.k6.io/public/crocodiles/1/,157,0,0
+1706193893537,173,GET - /public/crocodiles/1/-1,200,OK,Throughput Controller 1-8,text,true,,272,137,6,6,https://test-api.k6.io/public/crocodiles/1/,173,0,0
+1706193893380,333,GET - /public/crocodiles/1/,200,OK,Throughput Controller 1-26,text,true,,633,274,5,5,https://test-api.k6.io/public/crocodiles/1/,158,0,0
+1706193893380,158,GET - /public/crocodiles/1/-0,308,Permanent Redirect,Throughput Controller 1-26,text,true,,361,137,5,5,http://test-api.k6.io/public/crocodiles/1/,158,0,0
+1706193893538,175,GET - /public/crocodiles/1/-1,200,OK,Throughput Controller 1-26,text,true,,272,137,5,5,https://test-api.k6.io/public/crocodiles/1/,175,0,0
+1706193893380,335,GET - /public/crocodiles/1/,200,OK,Throughput Controller 1-12,text,true,,633,274,5,5,https://test-api.k6.io/public/crocodiles/1/,160,0,0
+1706193893380,335,GET - /public/crocodiles/1/,200,OK,Throughput Controller 1-6,text,true,,633,274,5,5,https://test-api.k6.io/public/crocodiles/1/,157,0,0
+1706193893380,160,GET - /public/crocodiles/1/-0,308,Permanent Redirect,Throughput Controller 1-12,text,true,,361,137,5,5,http://test-api.k6.io/public/crocodiles/1/,160,0,0
+1706193893380,335,GET - /public/crocodiles/1/,200,OK,Throughput Controller 1-18,text,true,,633,274,5,5,https://test-api.k6.io/public/crocodiles/1/,157,0,0
+1706193893380,157,GET - /public/crocodiles/1/-0,308,Permanent Redirect,Throughput Controller 1-6,text,true,,361,137,5,5,http://test-api.k6.io/public/crocodiles/1/,157,0,0
+1706193893541,174,GET - /public/crocodiles/1/-1,200,OK,Throughput Controller 1-12,text,true,,272,137,5,5,https://test-api.k6.io/public/crocodiles/1/,174,0,0
+1706193893380,335,GET - /public/crocodiles/1/,200,OK,Throughput Controller 1-2,text,true,,633,274,5,5,https://test-api.k6.io/public/crocodiles/1/,157,0,0
+1706193893380,157,GET - /public/crocodiles/1/-0,308,Permanent Redirect,Throughput Controller 1-18,text,true,,361,137,5,5,http://test-api.k6.io/public/crocodiles/1/,157,0,0
+1706193893537,178,GET - /public/crocodiles/1/-1,200,OK,Throughput Controller 1-6,text,true,,272,137,5,5,https://test-api.k6.io/public/crocodiles/1/,178,0,0
+1706193893537,178,GET - /public/crocodiles/1/-1,200,OK,Throughput Controller 1-18,text,true,,272,137,5,5,https://test-api.k6.io/public/crocodiles/1/,178,0,0
+1706193893380,157,GET - /public/crocodiles/1/-0,308,Permanent Redirect,Throughput Controller 1-2,text,true,,361,137,5,5,http://test-api.k6.io/public/crocodiles/1/,157,0,0
+1706193893537,178,GET - /public/crocodiles/1/-1,200,OK,Throughput Controller 1-2,text,true,,272,137,5,5,https://test-api.k6.io/public/crocodiles/1/,178,0,0
