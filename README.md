@@ -18,12 +18,23 @@ Olá Analistas, desenvolvedores e recrutadores. Este readme irá apresentar a es
 * .jmx - extensão do arquivo do projeto Jmeter.
 
 
-* Comando para executar os testes sem GUI mode tendo baixado o repositório:
+* Comando para executar os testes sem GUI mode gravando resultados em .jtl tendo baixado o repositório:
 
   ```
-  jmeter -n -t ./plans/api.jmx -l results.jtl
+  jmeter -n -t ./plans/api.jmx -l ./plans/results.jtl
   ```
 
+* Comando para executar os testes sem GUI mode gravando resultados em .csv tendo baixado o repositório:
+
+  ```
+  jmeter -n -t ./plans/api.jmx -l ./plans/results.csv
+  ```  
+
+* Comando para executar os testes sem GUI mode gerando HTML report tendo baixado o repositório:
+
+  ```
+  jmeter -n -t ./plans/api.jmx -l ./plans/results.csv -e -o .\plans\htmlReports
+  ```  
 
 
 ### Repositório github ###
