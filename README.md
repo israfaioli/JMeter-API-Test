@@ -19,18 +19,21 @@ Olá Analistas, desenvolvedores e recrutadores. Este readme irá apresentar a es
 
 
 * Comando para executar os testes sem GUI mode gravando resultados em .jtl tendo baixado o repositório:
+  - Estar no diretório apache-jmeter-5.6.3\bin
 
   ```
   jmeter -n -t ./plans/api.jmx -l ./plans/results.jtl
   ```
 
 * Comando para executar os testes sem GUI mode gravando resultados em .csv tendo baixado o repositório:
+  - Estar no diretório apache-jmeter-5.6.3\bin
 
   ```
   jmeter -n -t ./plans/api.jmx -l ./plans/results.csv
   ```  
 
 * Comando para executar os testes sem GUI mode gerando HTML report tendo baixado o repositório:
+  - Estar no diretório apache-jmeter-5.6.3\bin
 
   ```
   jmeter -n -t ./plans/api.jmx -l ./plans/results.csv -e -o .\plans\htmlReports
