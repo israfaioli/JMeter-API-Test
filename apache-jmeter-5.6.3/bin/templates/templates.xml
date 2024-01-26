@@ -273,4 +273,21 @@
             <parameter defaultValue="" key="body"/>
         </parameters>
     </template>
+    <template isTestPlan="true">
+        <name>cursoQA</name>
+        <fileName>cursoQA.jmx</fileName>
+        <description><![CDATA[
+        <h1>Projeto JMeter para aprendizado aos QAS by Israel Faioli</h1>
+        <h2>Overview</h2>
+        Neste projeto fazemos um tour completo sobre as principais funcionalidades da ferramenta e criação de cenários reais utilizando tudo que aprendemos.
+        <br/>
+        Acesse meu linkedin, github e medium para me conhecer melhor:
+        <h2>Useful links</h2>
+            <ul>
+                <li><a href="https://github.com/israfaioli?tab=repositories" >Github Israel Faioli</a></li>
+                <li><a href="https://medium.com/@israfaioli" >Medium Israel Faioli</a></li>
+                <li><a href="https://www.linkedin.com/in/israel-faioli-4485a889/" >Linkedin Israel Faioli</a></li>
+            </ul>
+        ]]></description>
+    </template>    
 </templates>
