@@ -9,8 +9,11 @@ before_script:
 
 run_tests:
   stage: test
+  image: adoptopenjdk/openjdk11:alpine  # Imagem que já contém o OpenJDK 11
   script:
     - source /etc/profile   # Carrega o perfil de shell
+    - export PATH=$JMETER_HOME/bin:$PATH
+    - export CLASSPATH=$JMETER_HOME/lib/ext/ApacheJMeter_core.jar:$JMETER_HOME/lib/jorphan.jar
     - $CI_PROJECT_DIR/apache-jmeter-5.6.3/bin/jmeter -n -t $CI_PROJECT_DIR/apache-jmeter-5.6.3/bin/plans/api.jmx -l results.jtl
     - ls $CI_PROJECT_DIR/apache-jmeter-5.6.3/bin/plans/
 
