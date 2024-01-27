@@ -3,7 +3,6 @@ stages:
 
 variables:
   JMETER_HOME: "$CI_PROJECT_DIR/apache-jmeter-5.6.3"
-  PATH: "$JMETER_HOME/bin:$PATH"
 
 before_script:
   - chmod +x $CI_PROJECT_DIR/apache-jmeter-5.6.3/bin/jmeter
@@ -11,9 +10,10 @@ before_script:
 run_tests:
   stage: test
   script:
-    - jmeter -n -t $CI_PROJECT_DIR/apache-jmeter-5.6.3/bin/plans/api.jmx -l results.jtl
+    - source /etc/profile   # Carrega o perfil de shell
+    - $CI_PROJECT_DIR/apache-jmeter-5.6.3/bin/jmeter -n -t $CI_PROJECT_DIR/apache-jmeter-5.6.3/bin/plans/api.jmx -l results.jtl
     - ls $CI_PROJECT_DIR/apache-jmeter-5.6.3/bin/plans/
 
   artifacts:
     paths:
-      - results.jtl
+    - results.jtl
